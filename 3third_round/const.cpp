@@ -1,5 +1,5 @@
 #include <iostream>
-void printInfo(const std::string name,const int age);
+void printInfo(const std::string name,const int &age);
 int main(){
     std::string name = "Me";
     int age = 21;
@@ -8,7 +8,7 @@ int main(){
     
     return 0;
 }
-void printInfo(const std::string name,const int age){
+void printInfo(const std::string name,const int &age){
     name = " ";
     age = 0;
     std::cout << name << '\n';

@@ -1,6 +1,3 @@
-//https://youtu.be/-TkoO8Z07hI?t=9414
-//last min bank
-
 #include <iostream>
 #include <iomanip>
 void showBalance(double balance);
